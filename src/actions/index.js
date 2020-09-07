@@ -5,6 +5,12 @@ export const addTodo = text => ({
   text
 })
 
+export const remTodo = text => ({
+  type: 'REM_TODO',
+  id: nextTodoId++,
+  text
+})
+
 export const setVisibilityFilter = filter => ({
   type: 'SET_VISIBILITY_FILTER',
   filter
