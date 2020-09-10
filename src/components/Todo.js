@@ -9,7 +9,7 @@ const Todo = ({ onClick, completed, text }) => (
     }}
   >
     {text}
-    <button  className = "center">DELETE</button>
+    <button>DELETE</button>
   </li>
 )
 
