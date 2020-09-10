@@ -16,9 +16,9 @@ render(
       <BrowserRouter>
         <Navbar />
         <Route exact path='/' component = {About} />
+        <Route exact path='/Todo' component = {App}/>
         <Route path='/Contact' component={Contact} />
       </BrowserRouter>
-      <App />
     </Provider>,
   document.getElementById('root')
 )
