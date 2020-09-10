@@ -9,17 +9,9 @@ const todos = (state = [], action) => {
             completed: false
           }
         ]
-/*
       case 'REM_TODO':
-          return [
-            ...state,
+          return state.filter(todo => todo.id !==action.index)
 
-
-          ]
-
-
-
-*/
       case 'TOGGLE_TODO':
         return state.map(todo =>
           (todo.id === action.id)

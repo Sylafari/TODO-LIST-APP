@@ -12,6 +12,7 @@ class Contact extends React.Component {
         this.handleChange = this.handleChange.bind(this);
       }
       handleChange = (event) => {
+        event.preventDefault();
         this.setState({ [event.target.name]: event.target.value });
       }
       render() {
