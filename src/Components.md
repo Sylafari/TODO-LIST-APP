@@ -1,11 +1,12 @@
 Container Components:
-About.js
-App.js
-Footer.js
-Navbar.js
+VisibleTodoList.js
+Contact.js
+FilterLink.js
 
 Presentational Components:
-Contact.js
 Link.js
 Todo.js
 TodoList.js
+Navbar.js
+Footer.js
+App.js
