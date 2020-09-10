@@ -1,27 +1,16 @@
-import React from 'react';
-import './App.css';
-import ( useDispatch) from 'react-redux';
+/*
+import React, { Component } from 'react';
+import Navbar from './components/Navbar'
 
-const Todos = () => {
-
-};
-
-const TodoInput = () => {
-
-};
-
-function App() {
-    return (
-        <div className = "App">
-            <header className = "App-header">
-                <p>
-                    TODOS
-                </p>
-                <Todos />
-                <TodoInput />
-            </header>
-        </div>
-    )
+class App extends Component {
+    render() {
+        return (
+            <div className="App">
+                <Navbar />
+            </div>
+        );
+    }
 }
 
 export default App;
+*/
