@@ -14,10 +14,12 @@ class Contact extends React.Component {
         this.handleSubmit = (event) => {
           event.preventDefault();
           console.log("Handle Submit");
+          
         }
       }
       handleChange = (event) => {
         this.setState({ [event.target.name]: event.target.value });
+        console.log({[event.target.name]: event.target.value});
       }
 
       render() {
