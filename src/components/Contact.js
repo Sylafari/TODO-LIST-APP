@@ -10,14 +10,19 @@ class Contact extends React.Component {
           cComments: "",
         };
         this.handleChange = this.handleChange.bind(this);
+
+        this.handleSubmit = (event) => {
+          event.preventDefault();
+          console.log("Handle Submit");
+        }
       }
       handleChange = (event) => {
-        event.preventDefault();
         this.setState({ [event.target.name]: event.target.value });
       }
+
       render() {
         return (
-          <form onSubmit>
+          <form onSubmit ={this.handleSubmit}>
           <p className = "center">Enter your first name:</p>
           <input
             type='text'
