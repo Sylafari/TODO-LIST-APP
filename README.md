@@ -1,6 +1,7 @@
+ToDo-List-App
 Quinn Cheng
 
-For this 3rd Web Project, I have created a ToDo App using React Router for navigation and Redux for state management.
+A ToDo App using React Router for navigation and Redux for state management.
 
 This webpage is very simple to use and has a horizontal navigation bar leading to three pages. The three pages are About, Todo, and Contact. 
 
